@@ -1,0 +1,79 @@
+{% load static %}
+<header class="md:bg-[#f1f0f0] bg-[#323232] py-4 fixed top-0 left-0 w-full z-50">
+    <div class="wrapper flex justify-between items-center px-4 mx-auto max-w-screen-xl">
+        <!-- Left (Logo) -->
+        <div class="left">
+            <a href="{% url 'web:index' %}">
+                <img src="{% static 'images/SwiftTalk-logo.png' %}" alt="logo" class="w-[100px] md:w-[150px] rounded-xl">
+            </a>
+        </div>
+
+        <!-- Middle (Search Bar) -->
+        <div class="middle flex-1 mx-6">
+            <form action="" method="get" class="relative bg-white flex items-center rounded-full shadow-md w-full">
+                <input 
+                    type="text" 
+                    name="q" 
+                    value="{{ q }}" 
+                    placeholder="Search" 
+                    class="w-full py-2 md:py-4 px-4 md:px-6 text-gray-800 rounded-full focus:outline-none"
+                >
+                <button type="submit" class="absolute right-2 bg-transparent">
+                    <img src="{% static 'images/search.png' %}" alt="search" class="w-[16px] md:w-[20px] h-[16px] md:h-[20px]">
+                </button>
+            </form>
+        </div>
+        
+        <!-- Right (Icons) -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="#">
+                <img class="w-[50px]" src="{% static 'images/account.png' %}" alt="account">
+            </a>
+            <a href="#">
+                <img class="w-[50px]" src="{% static 'images/cart.png' %}" alt="cart">
+            </a>
+            <a href="#">
+                <img class="w-[50px]" src="{% static 'images/logout.jpeg' %}" alt="logout">
+            </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center" id="mobile-menu-button">
+            <i class='bx bx-menu text-3xl' id="mobile-menu"></i>
+        </div>
+    </div>
+    
+    <!-- Mobile dropdown (initially hidden) -->
+    <div class="wrapper hidden md:hidden flex-col items-center mt-4 border px-4 py-6 rounded-lg bg-white bg-opacity-90 max-w-xs mx-auto shadow-lg transition-all duration-300 ease-in-out transform scale-0" id="mobile-drop">        
+        <!-- Mobile Icons -->
+        <div class="flex items-center justify-around w-full space-x-6">
+            <a href="#" class="flex flex-col items-center">
+                <img class="w-[40px] h-[40px]" src="{% static 'images/account.png' %}" alt="Account">
+                <span class="text-sm text-gray-700">Account</span>
+            </a>
+            <a href="#" class="flex flex-col items-center">
+                <img class="w-[40px] h-[40px]" src="{% static 'images/cart.png' %}" alt="Cart">
+                <span class="text-sm text-gray-700">Cart</span>
+            </a>
+            <a href="#" class="flex flex-col items-center">
+                <img class="w-[40px] h-[40px]" src="{% static 'images/logout.jpeg' %}" alt="Logout">
+                <span class="text-sm text-gray-700">Logout</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Menu icon functionality
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileDrop = document.getElementById('mobile-drop');
+
+        mobileMenu.addEventListener('click', function () {
+            // Toggle mobile dropdown visibility
+            mobileDrop.classList.toggle('hidden');
+            mobileDrop.classList.toggle('scale-0');
+            mobileDrop.classList.toggle('scale-100'); // Add this class for scaling animation
+        });
+    });
+</script>

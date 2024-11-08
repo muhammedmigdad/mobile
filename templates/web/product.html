@@ -1,0 +1,427 @@
+{% extends 'base/web-base.html' %}
+
+{% block container %}
+
+{% load static %}   
+
+{% include 'includes/header.html' %}
+
+
+    <section class="lg:flex lg:justify-between items-center mt-[20px] lg:mt-0 min-h-[896px] m-auto">
+        <div class="lg:pl-[60px] md:pl-[40px] sm:pl-[40px] pl-[16px] sm:pr-[40px] lg:pr-0 products m-auto md:items-center md:max-w-[606px]">
+            <div class="md:ml-[40px] lg:ml-3 flex justify-center m-auto">
+                <img src="./images/product-img.png" alt="img" class="sm:min-h-[516px] sm:max-h-[516px] sm:max-w-[413px] sm:min-w-[413px] min-w-[263.59px] max-w-[263.59px] min-h-[329px] max-h-[329px] mr-5">
+            </div>
+            <ul class="grid grid-cols-4 mt-5">
+                <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
+                    <img src="./images/product-img-1.png" alt="img" class="w-full h-full ">
+                </li>
+                <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
+                    <img src="./images/product-img-2.png" alt="img" class="w-full h-full px-[6px]">
+                </li>
+                <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
+                    <img src="./images/product-img-3.png" alt="img" class="w-full h-full px-[6px]">
+                </li>
+                <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
+                    <img src="./images/product-img-4.png" alt="img" class="w-full h-full px-[6px]">
+                </li>
+            </ul>                        
+        </div>
+
+
+        <!-- product -->
+
+        <div class="lg:pr-[60px] md:pr-[40px] sm:pr-[40px] pr-[16px] sm:pl-[40px] pl-[16px] md:pl-0 lg:max-w-[606px] w-full md:ml-[24px]">
+            <h1 class="text-[40px] leading-[40px] font-[600] text-[#000000] mb-[24px]">Apple iPhone 14 Pro Max</h1>
+            <ul class="flex items-center mb-[24px]">
+                <li class="text-[32px] leading-[48px] font-[500] mr-[16px]">$1399</li>
+                <li class="text-[24px] font-[400] text-[#A0A0A0] line-through">$1499</li>                                
+            </ul>      
+            <ul class="flex items-center mb-[24px]">
+                <li class="mr-[10px] text-[15px] font-[500] leading-[24px]">Select color :</li>
+                <li class="mr-[6px] h-[32px] w-[32px] rounded-[50%] bg-black"></li>
+                <li class="mr-[6px] h-[32px] w-[32px] rounded-[50%] bg-[#781DBC]"></li>
+                <li class="mr-[6px] h-[32px] w-[32px] rounded-[50%] bg-[#E10000]"></li>
+                <li class="mr-[6px] h-[32px] w-[32px] rounded-[50%] bg-[#E1B000]"></li>
+                <li class="h-[32px] w-[32px] rounded-[50%] bg-[#E8E8E8]"></li>
+            </ul>  
+            <ul class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-4 gap-[8px] md:w-[90%] mb-[24px]">
+                <li class="md:py-[16px] py-[12px] md:px-[24px] px-[18px] rounded-[8px] text-[14px] font-[500] leading-[14px] text-[#D5D5D5]" style="border: 1px solid #D5D5D5">128GB</li>
+                <li class="md:py-[16px] py-[12px] md:px-[24px] px-[18px] rounded-[8px] text-[14px] font-[500] leading-[14px] text-[#6F6F6F]" style="border: 1px solid #D5D5D5">256GB</li>
+                <li class="md:py-[16px] py-[12px] md:px-[24px] px-[18px] rounded-[8px] text-[14px] font-[500] leading-[14px] text-[#6F6F6F]" style="border: 1px solid #D5D5D5">512GB</li>
+                <li class="md:py-[16px] py-[12px] md:px-[24px] px-[18px] rounded-[8px] text-[14px] font-[500] leading-[14px] text-[#000000]" style="border: 1px solid #000000">1TB</li>
+            </ul>
+            <ul class="grid lg:grid-cols-3 grid-cols-2 lg:gap-2 gap-6 mb-6">
+                <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
+                    <img src="./images/prod-features.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <div class="py-[16px] lg:pr-2 pr-4">
+                        <p class="text-[14px] font-[400] text-[#6F6F6F]">Screen size</p>
+                        <span class="text-[14px] font-[400]">6.7"</span>
+                    </div>
+                </li>
+                <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
+                    <img src="./images/prod-features-1.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <div class="py-[16px] lg:pr-2 pr-4">
+                        <p class="text-[14px] font-[400] text-[#6F6F6F]">CPU</p>
+                        <span class="text-[14px] font-[400]">Apple A16 Bionic</span>
+                    </div>
+                </li>
+                <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
+                    <img src="./images/prod-features-2.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <div class="py-[16px] lg:pr-2 pr-4">
+                        <p class="text-[14px] font-[400] text-[#6F6F6F]">Number of Cores</p>
+                        <span class="text-[14px] font-[400]">6</span>
+                    </div>
+                </li>
+                <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
+                    <img src="./images/prod-features-3.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <div class="py-[16px] lg:pr-2 pr-4">
+                        <p class="text-[14px] font-[400] text-[#6F6F6F]">Main camera</p>
+                        <span class="text-[14px] font-[400]">48-12 -12 MP</span>
+                    </div>
+                </li>
+                <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
+                    <img src="./images/prod-features-4.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <div class="py-[16px] lg:pr-2 pr-4">
+                        <p class="text-[14px] font-[400] text-[#6F6F6F]">Front-camera</p>
+                        <span class="text-[14px] font-[400]">"12 MP</span>
+                    </div>
+                </li>
+                <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
+                    <img src="./images/prod-features-5.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <div class="py-[16px] lg:pr-2 pr-4">
+                        <p class="text-[14px] font-[400] text-[#6F6F6F]">Battery capacity</p>
+                        <span class="text-[14px] font-[400]">4323 mAh</span>
+                    </div>
+                </li>
+            </ul>
+            <p class="text-[14px] font-[400] text-[#6C6C6C] leading-[24px] w-full mb-[24px]">Enhanced capabilities thanks toan enlarged display of 6.7 inchesand work without rechargingthroughout the day. Incredible photosas in weak, yesand in bright lightusing the new systemwith two cameras <span class="text-[14px] font-[400] leading-[24px] border-b-[1px] text-[#000] border-[#000]">more...</span></p>
+            <div class="grid sm:grid-cols-2 grid-cols-1 gap-[16px] mb-[24px]">
+                <button class="lg:w-[180px] sm:w-[240px] md:w-[340px] w-[280px] py-[16px] rounded-[6px] text-[16px] font-[500] m-auto text-[#000]" style="border: 1px solid #000000">Add to Wishlist</button>
+                <button class="lg:w-[180px] sm:w-[240px] md:w-[340px] w-[280px] text-[16px] font-[500] text-[#FFFFFF] py-[16px] m-auto rounded-[6px] bg-[#000000]">Add to Card</button>
+            </div>
+            <ul class="grid grid-cols-3 justify-center gap-[8px] mb-[24px] m-auto">
+                <li class="sm:flex items-center">
+                    <div class="w-[56px] mr-[8px] p-[12px] bg-[#F6F6F6] rounded-[11px]">
+                      <img src="./images/delivery.png" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
+                    </div>                    
+                    <div class="">
+                        <p class="text-[14px] font-[500] text-[#6F6F6F]">Free Delivery</p>
+                        <span class="text-[14px] font-[500]">1-2 day</span>
+                    </div>
+                </li>
+                <li class="sm:flex items-center">
+                    <div class="w-[56px] mr-[8px] p-[12px] bg-[#F6F6F6] rounded-[11px]">
+                      <img src="./images/stock.png" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
+                    </div>                    
+                    <div class="">
+                        <p class="text-[14px] font-[500] text-[#6F6F6F]">In Stock</p>
+                        <span class="text-[14px] font-[500]">Today</span>
+                    </div>
+                </li>
+                <li class="sm:flex items-center">
+                    <div class="w-[56px] mr-[8px] p-[12px] bg-[#F6F6F6] rounded-[11px]">
+                      <img src="./images/verify.png" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
+                    </div>                    
+                    <div class="">
+                        <p class="text-[14px] font-[500] text-[#6F6F6F]">Guaranteed</p>
+                        <span class="text-[14px] font-[500]">1 year</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- product details -->
+
+    <section class="lg:px-[60px] sm:px-[40px] px-[16px] min-h-[1144px] bg-[#FAFAFA] flex justify-center items-center">
+        <div class="min-h-[984px] bg-[#FFFFFF] rounded-[8px] py-[48px] sm:px-[32px] px-[18px] my-[80px]">
+            <div>
+                <h1 class="text-[24px] font-[500] leading-[32px] mb-[32px]">Details</h1>
+                <p class="text-[14px] font-[500] leading-[24px] text-[#9D9D9D] mb-[32px]">Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.</p>
+            </div>
+            <div>
+                <h3 class="text-[20px] font-[500] leading-[24px] mb-[16px]">Screen</h3>
+                <ul class="mb-[32px]">
+                    <li class="flex justify-between pb-[8px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">Screen diagonal</p>
+                        <span class="text-[15px] font-[400]">6.7"</span>
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">The screen resolution</p>
+                        <span class="text-[15px] font-[400]">2796x1290</span>
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">The screen refresh rate</p>
+                        <span class="text-[15px] font-[400]">120 Hz</span>
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">The pixel density</p>
+                        <span class="text-[15px] font-[400]">460 ppi</span>
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">Screen type</p>
+                        <span class="text-[15px] font-[400]">OLED</span>
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">Additionally</p>
+                        <ul class="text-end">
+                            <li class="text-[15px] font-[400]">Dynamic Island</li>
+                            <li class="text-[15px] font-[400]">Always-On display</li>
+                            <li class="text-[15px] font-[400]">HDR display</li>
+                            <li class="text-[15px] font-[400]">True Tone</li>
+                            <li class="text-[15px] font-[400]">Wide color (P3)</li>
+                        </ul>                        
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <div>
+                            <h5 class="text-[20px] font-[500]">CPU</h5>
+                            <p class="text-[16px] font-[400]">CPU</p>
+                        </div>
+                        <span class="text-[15px] font-[400]">A16 Bionic</span>
+                    </li>
+                    <li class="flex justify-between pb-[8px] mt-[24px]" style="border-bottom: 0.5px solid #CDCDCD">
+                        <p class="text-[16px] font-[400]">Number of cores</p>
+                        <span class="text-[15px] font-[400]">6</span>
+                    </li>
+                </ul>
+                <div class="flex justify-center items-center py-[12px] px-[56px] rounded-[8px] w-[208px] m-auto" style="border: 1px solid #545454">
+                   <button class="text-[14px] font-[500] leading-[24px]">View More</button>
+                   <i class="bx bxs-chevron-right bx-rotate-90 text-[24px]"></i> 
+                </div>                
+            </div> 
+        </div>        
+    </section>
+
+    <!-- Reviews -->
+
+    <section class="lg:px-[60px] sm:px-[40px] px-[16px] my-[88px]">
+        <div>
+            <h1 class="text-[24px] font-[500] leading-[32px] mb-[48px]">
+                Reviews
+            </h1>
+            <div class="">
+                <ul class="md:min-w-[174px] h-[192px] rounded-[25px] bg-[#FAFAFA] px-[32px] text-center md:mr-[48px]">
+                    <li class="text-[56px] font-[500] pt-[16px]">4.8</li>
+                    <li class="text-[15px] text-[#CDCDCD] mb-[16px]">of 125 reviews</li>
+                    <li class="flex pb-[32px] justify-center">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                    </li>
+                </ul>
+                
+                        
+            </div>
+            <input type="text" placeholder="Leave Comment" class="outline-none w-full h-[64px] rounded-[7px] pl-[24px]" style="border: 0.5px solid #CECECE">
+        </div>        
+        <div class="mt-[32px]">
+            <ul class="flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
+                <li class="mr-[16px] pl-[16px] min-w-[56px]">
+                    <img src="./images/User-Pic.png" alt="user" class="w-[56px] h-[56px]">
+                </li>
+                <li class="pr-[28px]">
+                    <h4 class="text-[17px] font-[600]">Grace Carey</h4>
+                    <div class="flex pb-[12px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                    </div>
+                    <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">I was a bit nervous to be buying a secondhand phone from Amazon, but I couldn’t be happier with my purchase!! I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan, since the new phones don’t have the physical Sim tray anymore, but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent condition and everything is PERFECT. It was super easy to set up and the phone works and looks great. It truly was in excellent condition. Highly recommend!!!🖤</p>
+                </li>
+            </ul>
+            <ul class="flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
+                <li class="mr-[16px] pl-[16px] min-w-[56px]">
+                    <img src="./images/User-Pic-1.png" alt="user" class="w-[56px] h-[56px]">
+                </li>
+                <li class="pr-[28px]">
+                    <h4 class="text-[17px] font-[600]">Ronald Richards</h4>
+                    <div class="flex pb-[12px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                    </div>
+                    <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">This phone has 1T storage and is durable. Plus all the new iPhones have a C port! Apple is phasing out the current ones! (All about the Benjamin’s) So if you want a phone that’s going to last grab an iPhone 14 pro max and get several cords and plugs.</p>
+                </li>
+            </ul>
+            <ul class="flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
+                <li class="mr-[16px] pl-[16px] min-w-[56px]">
+                    <img src="./images/User-Pic-2.png" alt="user" class="w-[56px] h-[56px]">
+                </li>
+                <li class="pr-[28px]">
+                    <h4 class="text-[17px] font-[600]">Darcy King</h4>
+                    <div class="flex pb-[12px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                    </div>
+                    <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition</p>
+                    <div class="flex mt-[5px]">
+                        <img src="./images/Review-Image1.png" alt="rewiew" class="h-[88px] w-[100px] rounded-[6px] mr-[10px]">
+                        <img src="./images/Review-Image2.png" alt="rewiew" class="h-[88px] w-[100px] rounded-[6px]">
+                    </div>
+                </li>
+            </ul>
+            <ul class="shade flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
+                <li class="mr-[16px] pl-[16px] min-w-[56px]">
+                    <img src="./images/User-Pic-3.png" alt="user" class="w-[56px] h-[56px]">
+                </li>
+                <li class="pr-[28px]">
+                    <h4 class="text-[17px] font-[600]">John Malcolm</h4>
+                    <div class="flex pb-[12px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                    </div>
+                    <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">In Washington, it is already difficult to surprise with the opening of a new institution, but it is still possible. Especially if it is a True Cost project. Here you pay an entrance fee and get meals at cost price. </p>
+                </li>                
+            </ul> 
+            
+            <div class="flex justify-center items-center py-[12px] px-[56px] rounded-[8px] w-[208px] m-auto relative bottom-[50px]" style="border: 1px solid #545454">
+                <button class="text-[14px] font-[500] leading-[24px] inline-block">View More</button>
+                <i class="bx bxs-chevron-right bx-rotate-90 text-[24px]"></i> 
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-[#000] text-gray-300 py-8">
+        <!-- Top Subscription Section -->
+        <div class="flex flex-col lg:flex-row justify-center items-center px-4 lg:px-8 py-6 border-b border-gray-700 space-y-6 lg:space-y-0">
+            <div class="flex items-center space-x-4 w-full lg:w-auto lg:mr-8">
+                <!-- Icon -->
+                <div class="mr-4">
+                    <img src="https://oxygendigitalshop.com/dist/flying-mail-white-fji.svg" alt="Mail Icon" class="w-10 h-10">
+                </div>
+                <!-- Text -->
+                <div>
+                    <h2 class="text-[#fff] text-xl lg:text-2xl font-semibold">Fear Of Missing Out?</h2>
+                    <p class="text-gray-400 text-sm lg:text-base">Get THE LATEST DEALS, UPDATES & MORE</p>
+                </div>
+            </div>
+            
+            <!-- Subscription Form -->
+            <form class="flex items-center w-full lg:w-auto mt-4 lg:mt-0">
+                <div class="flex border border-gray-300 rounded overflow-hidden w-full lg:w-auto">
+                    <input type="email" name="email" placeholder="Enter your Email"
+                           class="px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full lg:w-auto"
+                           autocomplete="email">
+                    <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 rounded-r">
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+        </div>
+    
+    
+    
+        <!-- Bottom Links and Contact Info Section -->
+        <div class="max-w-7xl mx-auto px-4 lg:px-8 py-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Category Links -->
+                <div>
+                    <strong class="block text-lg lg:text-xl font-semibold text-white mb-4">Category</strong>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-red-500">Mobile</a></li>
+                        <li><a href="#" class="hover:text-red-500">Laptop</a></li>
+                        <li><a href="#" class="hover:text-red-500">Tablets</a></li>
+                        <li><a href="#" class="hover:text-red-500">Watches</a></li>
+                        <li><a href="#" class="hover:text-red-500">TVs</a></li>
+                        <li><a href="#" class="hover:text-red-500">Blogs</a></li>
+                    </ul>
+                </div>
+    
+                <!-- About Links -->
+                <div>
+                    <strong class="block text-lg lg:text-xl font-semibold text-white mb-4">About</strong>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-red-500">About Us</a></li>
+                        <li><a href="#" class="hover:text-red-500">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-red-500">Careers</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Policy Links -->
+                <div>
+                    <strong class="block text-lg lg:text-xl font-semibold text-white mb-4">Policy</strong>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-red-500">Terms & Conditions</a></li>
+                        <li><a href="#" class="hover:text-red-500">Privacy Policy</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Information Section -->
+                <div>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <strong class="block font-semibold text-lg lg:text-xl text-white">Head Office</strong>
+                            <p>Ward-13/ 195-B,195-C,195-D,195-E,</p>
+                            <p>St.Antonys Arcade, Opposite to Nehru Stadium,</p>
+                            <p>Nagampadom, Kottayam, Kerala 686001, India</p>
+                        </div>
+                        <div>
+                            <strong class="block font-semibold text-lg lg:text-xl text-white">Email Support</strong>
+                            <p>support@SwiftTalk.com</p>
+                        </div>
+                        <div>
+                            <strong class="block font-semibold text-lg lg:text-xl text-white">Showroom Related Enquiries</strong>
+                            <p>+91 9020180100 <br> Working Hours: 9:00 AM To 6:00 PM IST</p>
+                        </div>
+                        <div>
+                            <strong class="block font-semibold text-lg lg:text-xl text-white">Ecommerce Support</strong>
+                            <p>+91 9745703832 <br> Working Hours: 9:00 AM To 6:00 PM IST</p>
+                        </div>
+                    </div>
+            <!-- Social Media Section -->
+                    <div class="flex justify-between w-full  lg:w-auto items-center lg:justify-end space-x-3 pt-10 lg:mt-0">
+                        <span class="text-[#fff] text-[20px] font-medium">Follow us:</span>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class=" hover:bg-blue-400 rounded-3xl">
+                            <img src="https://oxygendigitalshop.com/dist/icon-facebook-kD2.svg" alt="Facebook" class="w-10 h-10">
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class=" hover:bg-rose-700 rounded-3xl">
+                            <img src="https://oxygendigitalshop.com/dist/icon-instagram-viz.svg" alt="Instagram" class="w-10 h-10">
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class=" hover:bg-blue-400 rounded-3xl">
+                            <img src="https://oxygendigitalshop.com/dist/icon-twitter-tH8.svg" alt="Twitter" class="w-10 h-10">
+                        </a>
+                    </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+<script>
+    // JavaScript to toggle the mobile menu
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    const profileMenuButton = document.getElementById('profile-menu-button');
+    const profileMenu = document.getElementById('profile-menu');
+
+
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+    profileMenuButton.addEventListener('click', () => {
+        profileMenu.classList.toggle('hidden');
+    });
+</script>
+
+
+
+{% endblock %}
