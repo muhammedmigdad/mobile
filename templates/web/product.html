@@ -7,23 +7,23 @@
 {% include 'includes/header.html' %}
 
 
-    <section class="lg:flex lg:justify-between items-center mt-[20px] lg:mt-0 min-h-[896px] m-auto">
+    <section class="lg:flex lg:justify-between py-52 items-center mt-[20px] lg:mt-0 min-h-[896px] m-auto">
         <div class="lg:pl-[60px] md:pl-[40px] sm:pl-[40px] pl-[16px] sm:pr-[40px] lg:pr-0 products m-auto md:items-center md:max-w-[606px]">
             <div class="md:ml-[40px] lg:ml-3 flex justify-center m-auto">
-                <img src="./images/product-img.png" alt="img" class="sm:min-h-[516px] sm:max-h-[516px] sm:max-w-[413px] sm:min-w-[413px] min-w-[263.59px] max-w-[263.59px] min-h-[329px] max-h-[329px] mr-5">
+                <img src="{% static 'images/product-1.png' %}" alt="img" class="sm:min-h-[516px] sm:max-h-[516px] sm:max-w-[413px] sm:min-w-[413px] min-w-[263.59px] max-w-[263.59px] min-h-[329px] max-h-[329px] mr-5">
             </div>
             <ul class="grid grid-cols-4 mt-5">
                 <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
-                    <img src="./images/product-img-1.png" alt="img" class="w-full h-full ">
+                    <img src="{% static 'images/product-img-1.png' %}" alt="img" class="w-full h-full ">
                 </li>
                 <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
-                    <img src="./images/product-img-2.png" alt="img" class="w-full h-full px-[6px]">
+                    <img src="{% static 'images/product-img-2.png' %}" alt="img" class="w-full h-full px-[6px]">
                 </li>
                 <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
-                    <img src="./images/product-img-3.png" alt="img" class="w-full h-full px-[6px]">
+                    <img src="{% static 'images/product-3.png' %}" alt="img" class="w-full h-full px-[6px]">
                 </li>
                 <li class="sm:min-w-[74.88px] min-w-[60px] sm:max-w-[74.88px] max-w-[60px] sm:min-h-[93px] min-h-[66px] h-[66px] mb-[24px]">
-                    <img src="./images/product-img-4.png" alt="img" class="w-full h-full px-[6px]">
+                    <img src="{% static 'images/product-img-4.png' %}" alt="img" class="w-full h-full px-[6px]">
                 </li>
             </ul>                        
         </div>
@@ -53,42 +53,42 @@
             </ul>
             <ul class="grid lg:grid-cols-3 grid-cols-2 lg:gap-2 gap-6 mb-6">
                 <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
-                    <img src="./images/prod-features.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <img src="{% static 'images/prod-features.png' %}" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
                     <div class="py-[16px] lg:pr-2 pr-4">
                         <p class="text-[14px] font-[400] text-[#6F6F6F]">Screen size</p>
                         <span class="text-[14px] font-[400]">6.7"</span>
                     </div>
                 </li>
                 <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
-                    <img src="./images/prod-features-1.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <img src="{% static 'images/prod-features-1.png' %}" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
                     <div class="py-[16px] lg:pr-2 pr-4">
                         <p class="text-[14px] font-[400] text-[#6F6F6F]">CPU</p>
                         <span class="text-[14px] font-[400]">Apple A16 Bionic</span>
                     </div>
                 </li>
                 <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
-                    <img src="./images/prod-features-2.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <img src="{% static 'images/prod-features-2.png' %}" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
                     <div class="py-[16px] lg:pr-2 pr-4">
                         <p class="text-[14px] font-[400] text-[#6F6F6F]">Number of Cores</p>
                         <span class="text-[14px] font-[400]">6</span>
                     </div>
                 </li>
                 <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
-                    <img src="./images/prod-features-3.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <img src="{% static 'images/prod-features-3.png' %}" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
                     <div class="py-[16px] lg:pr-2 pr-4">
                         <p class="text-[14px] font-[400] text-[#6F6F6F]">Main camera</p>
                         <span class="text-[14px] font-[400]">48-12 -12 MP</span>
                     </div>
                 </li>
                 <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
-                    <img src="./images/prod-features-4.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <img src="{% static 'images/prod-features-4.png' %}" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
                     <div class="py-[16px] lg:pr-2 pr-4">
                         <p class="text-[14px] font-[400] text-[#6F6F6F]">Front-camera</p>
                         <span class="text-[14px] font-[400]">"12 MP</span>
                     </div>
                 </li>
                 <li class="flex items-center bg-[#F4F4F4] rounded-[7px]">
-                    <img src="./images/prod-features-5.png" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
+                    <img src="{% static 'images/prod-features-5.png' %}" alt="feature" class="mr-[10px] lg:pl-2 pl-4 h-[24px]">
                     <div class="py-[16px] lg:pr-2 pr-4">
                         <p class="text-[14px] font-[400] text-[#6F6F6F]">Battery capacity</p>
                         <span class="text-[14px] font-[400]">4323 mAh</span>
@@ -103,7 +103,7 @@
             <ul class="grid grid-cols-3 justify-center gap-[8px] mb-[24px] m-auto">
                 <li class="sm:flex items-center">
                     <div class="w-[56px] mr-[8px] p-[12px] bg-[#F6F6F6] rounded-[11px]">
-                      <img src="./images/delivery.png" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
+                      <img src="{% static 'images/delivery.png' %}" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
                     </div>                    
                     <div class="">
                         <p class="text-[14px] font-[500] text-[#6F6F6F]">Free Delivery</p>
@@ -112,7 +112,7 @@
                 </li>
                 <li class="sm:flex items-center">
                     <div class="w-[56px] mr-[8px] p-[12px] bg-[#F6F6F6] rounded-[11px]">
-                      <img src="./images/stock.png" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
+                      <img src="{% static 'images/stock.png' %}" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
                     </div>                    
                     <div class="">
                         <p class="text-[14px] font-[500] text-[#6F6F6F]">In Stock</p>
@@ -121,7 +121,7 @@
                 </li>
                 <li class="sm:flex items-center">
                     <div class="w-[56px] mr-[8px] p-[12px] bg-[#F6F6F6] rounded-[11px]">
-                      <img src="./images/verify.png" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
+                      <img src="{% static 'images/verify.png' %}" alt="feature" class="sm:min-h-[24px] min-h-[21px] sm:min-w-[24px] min-w-[21px]">  
                     </div>                    
                     <div class="">
                         <p class="text-[14px] font-[500] text-[#6F6F6F]">Guaranteed</p>
@@ -205,11 +205,11 @@
                     <li class="text-[56px] font-[500] pt-[16px]">4.8</li>
                     <li class="text-[15px] text-[#CDCDCD] mb-[16px]">of 125 reviews</li>
                     <li class="flex pb-[32px] justify-center">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star-5.png' %}" alt="star" class="h-[24px] w-[24px]">
                     </li>
                 </ul>
                 
@@ -220,68 +220,68 @@
         <div class="mt-[32px]">
             <ul class="flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
                 <li class="mr-[16px] pl-[16px] min-w-[56px]">
-                    <img src="./images/User-Pic.png" alt="user" class="w-[56px] h-[56px]">
+                    <img src="{% static 'images/User-Pic.png' %}" alt="user" class="w-[56px] h-[56px]">
                 </li>
                 <li class="pr-[28px]">
                     <h4 class="text-[17px] font-[600]">Grace Carey</h4>
                     <div class="flex pb-[12px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star-5.png' %}" alt="star" class="h-[24px] w-[24px]">
                     </div>
                     <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">I was a bit nervous to be buying a secondhand phone from Amazon, but I couldn’t be happier with my purchase!! I have a pre-paid data plan so I was worried that this phone wouldn’t connect with my data plan, since the new phones don’t have the physical Sim tray anymore, but couldn’t have been easier! I bought an Unlocked black iPhone 14 Pro Max in excellent condition and everything is PERFECT. It was super easy to set up and the phone works and looks great. It truly was in excellent condition. Highly recommend!!!🖤</p>
                 </li>
             </ul>
             <ul class="flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
                 <li class="mr-[16px] pl-[16px] min-w-[56px]">
-                    <img src="./images/User-Pic-1.png" alt="user" class="w-[56px] h-[56px]">
+                    <img src="{% static 'images/User-Pic-1.png' %}" alt="user" class="w-[56px] h-[56px]">
                 </li>
                 <li class="pr-[28px]">
                     <h4 class="text-[17px] font-[600]">Ronald Richards</h4>
                     <div class="flex pb-[12px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star-5.png' %}" alt="star" class="h-[24px] w-[24px]">
                     </div>
                     <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">This phone has 1T storage and is durable. Plus all the new iPhones have a C port! Apple is phasing out the current ones! (All about the Benjamin’s) So if you want a phone that’s going to last grab an iPhone 14 pro max and get several cords and plugs.</p>
                 </li>
             </ul>
             <ul class="flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
                 <li class="mr-[16px] pl-[16px] min-w-[56px]">
-                    <img src="./images/User-Pic-2.png" alt="user" class="w-[56px] h-[56px]">
+                    <img src="{% static 'images/User-Pic-2.png' %}" alt="user" class="w-[56px] h-[56px]">
                 </li>
                 <li class="pr-[28px]">
                     <h4 class="text-[17px] font-[600]">Darcy King</h4>
                     <div class="flex pb-[12px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star-5.png' %}" alt="star" class="h-[24px] w-[24px]">
                     </div>
                     <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">I might be the only one to say this but the camera is a little funky. Hoping it will change with a software update: otherwise, love this phone! Came in great condition</p>
                     <div class="flex mt-[5px]">
-                        <img src="./images/Review-Image1.png" alt="rewiew" class="h-[88px] w-[100px] rounded-[6px] mr-[10px]">
-                        <img src="./images/Review-Image2.png" alt="rewiew" class="h-[88px] w-[100px] rounded-[6px]">
+                        <img src="{% static 'images/Review-Image1.png' %}" alt="rewiew" class="h-[88px] w-[100px] rounded-[6px] mr-[10px]">
+                        <img src="{% static 'images/Review-Image2.png' %}" alt="rewiew" class="h-[88px] w-[100px] rounded-[6px]">
                     </div>
                 </li>
             </ul>
             <ul class="shade flex bg-[#FAFAFA] py-[24px] rounded-[10px] mb-[24px]">
                 <li class="mr-[16px] pl-[16px] min-w-[56px]">
-                    <img src="./images/User-Pic-3.png" alt="user" class="w-[56px] h-[56px]">
+                    <img src="{% static 'images/User-Pic-1.png' %}" alt="user" class="w-[56px] h-[56px]">
                 </li>
                 <li class="pr-[28px]">
                     <h4 class="text-[17px] font-[600]">John Malcolm</h4>
                     <div class="flex pb-[12px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-4.png" alt="star" class="h-[24px] w-[24px]">
-                        <img src="./images/Star-5.png" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star.png' %}" alt="star" class="h-[24px] w-[24px]">
+                        <img src="{% static 'images/Star-5.png' %}" alt="star" class="h-[24px] w-[24px]">
                     </div>
                     <p class="sm:text-[15px] text-[12px] font-[500] sm:leading-[24px] text-[#7E7E7E]">In Washington, it is already difficult to surprise with the opening of a new institution, but it is still possible. Especially if it is a True Cost project. Here you pay an entrance fee and get meals at cost price. </p>
                 </li>                

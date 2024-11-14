@@ -274,6 +274,37 @@
         </div>
         
     </div>
+ 
+
+    <section class="wrapper"> 
+ 
+            <div class="flex">
+                    <a href="#">
+                        <img class="w-full h-[300px] sm:h-[400px] md:h-full" src="{% static 'images/phoneslider.jpg' %}" alt="images">
+                    </a>
+
+                <div>
+                    <a href="#">
+                        <img class="w-full h-[300px] sm:h-[400px] md:h-[500px]" src="{% static 'images/laptopslider.jpg' %}" alt="images">
+                    </a>
+                    <div class="flex">
+                        <a href="#">
+                            <img class="w-full h-[300px] sm:h-[400px] md:h-[500px]" src="{% static 'images/appleslider.jpg' %}" alt="images">
+                        </a>
+                        <a href="#">
+                            <img class="w-full h-[300px] sm:h-[400px] md:h-[500px]" src="{% static 'images/watchslider.jpg' %}" alt="images">
+                        </a>
+                        <a href="#">
+                            <img class="w-full h-[300px] sm:h-[400px] md:h-[500px]" src="{% static 'images/watchslider1.jpg' %}" alt="images">
+                        </a>
+                    </div>
+                </div>
+ 
+                <a href="#">
+                    <img class="w-full h-[300px] sm:h-[400px] md:h-full" src="{% static 'images/samsungslider1.jpg' %}" alt="images">
+                </a>   
+            </div> 
+    </section>
    
     <h1 class="text-center text-2xl md:text-3xl font-bold py-5 text-black">Top Selling Products</h1>
     <div class="border-t border-red-700 w-full my-4"></div>    
@@ -288,7 +319,7 @@
         </li>
     </ul>
     
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-3 gap-4 px-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-3 gap-4 px-3">
         <div class=" text-center border py-3 px-5 rounded-xl ">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/1phone.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
             <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Apple iPhone 15 pro max | 256 GB |</h2>
@@ -306,14 +337,7 @@
                 MRP ₹ 1,44,900 <span class="line-through text-[16px]"> ₹ 1,70,900</span>
             </h3>
         </div>
-        <div class=" text-center border py-3 px-5 rounded-xl ">
-            <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/3phone.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
-            <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">REDMI NOTE 13 5G | 6GB+128GB |</h2>
-            <p class="text-[#000] text-[16px] sm:text-[20px] font-medium">STEALTH BLACK</p>
-            <h3 class="text-[#000] text-[18px] sm:text-[20px] font-semibold mt-4">
-                MRP ₹ 121,999.00<span class="line-through text-[16px]"> ₹ 134,999.00</span>
-            </h3>
-        </div>
+
     
         <div class=" text-center border py-3 px-5 rounded-xl ">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/4phone.jpeg' %}" alt="Apple iPhone 16 Pro Max"></a>
@@ -345,8 +369,8 @@
         </li>
     </ul>
     
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-3 gap-4 px-3">
-        <div class="text-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-3 gap-4 px-3">
+        <div class="text-center  border py-3 px-5 rounded-xl">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/watch1.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
             <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Amazfit</h2>
             <p class="text-[#000] text-[16px] sm:text-[20px] font-medium">Unisex | GTS 4 Mini</p>
@@ -380,16 +404,28 @@
                 MRP ₹ 23,995<span class="line-through text-[16px]"> ₹ 29,995</span>
             </h3>
         </div>
-        <div class=" text-center border py-3 px-5 rounded-xl ">
-            <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/watch5.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
-            <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Michael Kors</h2>
-            <p class="text-[#000] text-[16px] sm:text-[20px] font-medium">Men | Lexingtonr</p>
-            <h3 class="text-[#000] text-[18px] sm:text-[20px] font-semibold mt-4">
-                MRP ₹ 23,995 <span class="line-through text-[16px]">  ₹ 26,995</span>
-            </h3>
-        </div>
-    
     </div>
+
+    <div class="w-full mt-2">
+        <!-- Main Image -->
+        <a href="#">
+            <img class="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] rounded-lg shadow-lg mb-6" src="{% static 'images/iphoneslider.jpg' %}" alt="images">
+        </a>
+    
+        <!-- Thumbnails Section -->
+        <ul class="flex flex-col sm:flex-row gap-4 mt-4">
+            <a href="#" class="flex-1">
+                <img class="w-full h-[200px] sm:h-[350px] md:h-[500px] rounded-lg shadow-lg" src="{% static 'images/samsungslider.jpg' %}" alt="Samsung image">
+            </a>
+            <a href="#" class="flex-1">
+                <img class="w-full h-[200px] sm:h-[350px] md:h-[500px] rounded-lg shadow-lg" src="{% static 'images/offer-image-3.webp' %}" alt="Offer image 3">
+            </a>
+            <a href="#" class="flex-1">
+                <img class="w-full h-[200px] sm:h-[350px] md:h-[500px] rounded-lg shadow-lg" src="{% static 'images/offer-image-6.webp' %}" alt="Offer image 6">
+            </a>
+        </ul>
+    </div>
+    
     <div class="border-t border-red-700 w-full mt-4 "></div>
     <ul class="flex flex-wrap justify-between py-4 items-center">
         <li>
@@ -402,7 +438,7 @@
         </li>
     </ul>
     
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-3 gap-4 px-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-3 gap-4 px-3">
         <div class=" text-center border py-3 px-5 rounded-xl ">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/laptop2.jpeg' %}" alt="Apple iPhone 16 Pro Max"></a>
             <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Apple MXD13HN/A MacBook Air</h2>
@@ -429,14 +465,6 @@
         </div>
     
         <div class=" text-center border py-3 px-5 rounded-xl ">
-            <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/laptop4.jpeg' %}" alt="Apple iPhone 16 Pro Max"></a>
-            <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Lenovo 12HA IdeaPad Flex 3i </h2>
-            <p class="text-[#000] text-[16px] sm:text-[20px] font-medium">Intel Celeron N4500/4GB/128GB eMMC 5.1</p>
-            <h3 class="text-[#000] text-[18px] sm:text-[20px] font-semibold mt-4">
-                MRP ₹ 40,490.00 <span class="line-through text-[16px]">₹ 46,490.00</span>
-            </h3>
-        </div>
-        <div class=" text-center border py-3 px-5 rounded-xl ">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/laptop5.jpeg' %}" alt="Apple iPhone 16 Pro Max"></a>
             <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Acer Nitro V ANV15-41 Gaming</h2>
             <p class="text-[#000] text-[16px] sm:text-[20px] font-medium">AMD Ryzen 7 7535HS/16 GB/512 GB</p>
@@ -458,7 +486,7 @@
         </li>
     </ul>
     
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-3 gap-4 px-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-3 gap-4 px-3">
         <div class=" text-center border py-3 px-5 rounded-xl ">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/tv1.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
             <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Impex 55 Inch UHD Google TV</h2>
@@ -493,14 +521,6 @@
                 MRP ₹ 284,900.00 <span class="line-through text-[16px]">₹ 429,900.00</span>
             </h3>
         </div>
-        <div class=" text-center border py-3 px-5 rounded-xl ">
-            <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/tv5.jpeg' %}" alt="Apple iPhone 16 Pro Max"></a>
-            <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Haier | 55S800QT | 55 |</h2>
-            <p class="text-[#000] text-[16px] sm:text-[20px] font-medium"> 4K Ultra HD QLED Smart TV</p>
-            <h3 class="text-[#000] text-[18px] sm:text-[20px] font-semibold mt-4">
-                MRP ₹ 54,990.00 <span class="line-through text-[16px]">  ₹ 59,990.00</span>
-            </h3>
-        </div>
     
     </div>
     <div class="border-t border-red-700 w-full mt-4 "></div>
@@ -515,7 +535,7 @@
         </li>
     </ul>
     
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-3 gap-4 px-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  mt-3 gap-4 px-3">
         <div class=" text-center border py-3 px-5 rounded-xl ">
             <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/tablet1.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
             <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Apple iPad Pro 11 </h2>
@@ -550,14 +570,7 @@
                 MRP ₹ 24,999.00 <span class="line-through text-[16px]">₹ 29,999.00</span>
             </h3>
         </div>
-        <div class=" text-center border py-3 px-5 rounded-xl ">
-            <a href="#"><img class="w-full rounded-xl h-[300px] sm:h-[400px] lg:h-[500px] object-cover" src="{% static 'images/tablet5.jpg' %}" alt="Apple iPhone 16 Pro Max"></a>
-            <h2 class="text-[#000] text-[20px] sm:text-[24px] mt-2 font-medium">Realme Pad Mini Tablet</h2>
-            <p class="text-[#000] text-[16px] sm:text-[20px] font-medium">Grey</p>
-            <h3 class="text-[#000] text-[18px] sm:text-[20px] font-semibold mt-4">
-                MRP ₹ 12,999.00 <span class="line-through text-[16px]">  ₹ 16,999.00</span>
-            </h3>
-        </div>
+
     
     </div>
    </section>
